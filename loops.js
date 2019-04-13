@@ -27,8 +27,9 @@ function maybeTrue() {
 function doWhileLoop(num) {
   do {
     let num = 1
-  }
-  while num * 10; 
+    console.log(array)
+    array = array.slice(1)
+  } while (array.length > 0 && maybeTrue())
   return array
 }
 
