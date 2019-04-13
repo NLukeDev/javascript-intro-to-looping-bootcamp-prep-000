@@ -24,7 +24,7 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 
-function doWhileLoop(array) {
+function doWhileLoop(num) {
   do {
     console.log(array)
     array = array.slice(1)
