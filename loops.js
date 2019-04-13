@@ -27,7 +27,7 @@ function maybeTrue() {
 function doWhileLoop(num) {
   do {
     let num = 1;
-    num * 10 = 10;
+    num * 10; = 10
   return array
 }
 
